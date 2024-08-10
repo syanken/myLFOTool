@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 16
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myLFOTool - Standalone Plugin", "myLFOTool_StandalonePlugin.vcxproj", "{7B7EF2E0-AA5C-7B95-56F8-D1AF240506B8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7DC7E4DE-9753-3D5C-04FB-C12993024F1C} = {7DC7E4DE-9753-3D5C-04FB-C12993024F1C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myLFOTool - VST3", "myLFOTool_VST3.vcxproj", "{92D6579D-5511-CE5E-E34D-06C731BA9E84}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7DC7E4DE-9753-3D5C-04FB-C12993024F1C} = {7DC7E4DE-9753-3D5C-04FB-C12993024F1C}
+		{4E8F355F-24E1-8979-867B-B24254F380F5} = {4E8F355F-24E1-8979-867B-B24254F380F5}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myLFOTool - Shared Code", "myLFOTool_SharedCode.vcxproj", "{7DC7E4DE-9753-3D5C-04FB-C12993024F1C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "myLFOTool - VST3 Manifest Helper", "myLFOTool_VST3ManifestHelper.vcxproj", "{4E8F355F-24E1-8979-867B-B24254F380F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{92D6579D-5511-CE5E-E34D-06C731BA9E84}.Debug|x64.ActiveCfg = Debug|x64
+		{92D6579D-5511-CE5E-E34D-06C731BA9E84}.Debug|x64.Build.0 = Debug|x64
+		{92D6579D-5511-CE5E-E34D-06C731BA9E84}.Release|x64.ActiveCfg = Release|x64
+		{92D6579D-5511-CE5E-E34D-06C731BA9E84}.Release|x64.Build.0 = Release|x64
+		{7B7EF2E0-AA5C-7B95-56F8-D1AF240506B8}.Debug|x64.ActiveCfg = Debug|x64
+		{7B7EF2E0-AA5C-7B95-56F8-D1AF240506B8}.Debug|x64.Build.0 = Debug|x64
+		{7B7EF2E0-AA5C-7B95-56F8-D1AF240506B8}.Release|x64.ActiveCfg = Release|x64
+		{7B7EF2E0-AA5C-7B95-56F8-D1AF240506B8}.Release|x64.Build.0 = Release|x64
+		{7DC7E4DE-9753-3D5C-04FB-C12993024F1C}.Debug|x64.ActiveCfg = Debug|x64
+		{7DC7E4DE-9753-3D5C-04FB-C12993024F1C}.Debug|x64.Build.0 = Debug|x64
+		{7DC7E4DE-9753-3D5C-04FB-C12993024F1C}.Release|x64.ActiveCfg = Release|x64
+		{7DC7E4DE-9753-3D5C-04FB-C12993024F1C}.Release|x64.Build.0 = Release|x64
+		{4E8F355F-24E1-8979-867B-B24254F380F5}.Debug|x64.ActiveCfg = Debug|x64
+		{4E8F355F-24E1-8979-867B-B24254F380F5}.Debug|x64.Build.0 = Debug|x64
+		{4E8F355F-24E1-8979-867B-B24254F380F5}.Release|x64.ActiveCfg = Release|x64
+		{4E8F355F-24E1-8979-867B-B24254F380F5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
